@@ -14,7 +14,7 @@ CREATE TABLE pizza_types(
 pizza_type_id VARCHAR(20) PRIMARY KEY NOT NULL,
 name VARCHAR(20)  NOT NULL,
 category VARCHAR(20) NOT NULL,
-ingredient VARCAHR(20) NOT NULL )
+ingredient VARCHAR(20) NOT NULL )
   
 SELECT COUNT(*) FROM pizza_types;
 
